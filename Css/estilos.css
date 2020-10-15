@@ -274,16 +274,17 @@ footer .contacto .titulo{
     text-align: center;
 }
 
-/* footer .contacto .contact-info{
+footer .contacto .contact-info{
     display: flex;
     justify-content: space-around;
     color: #002A22;
     font-size: 1.3rem;
     text-align: center;
-} */
+    margin-bottom: 70px;
+} 
 
 /* Estilos del formulario */
-
+/* 
 footer .contacto form input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color: #aca49c;
     font-size: 0.875em;
@@ -318,11 +319,11 @@ footer .contacto form input::-ms-placeholder, textarea::-ms-placeholder {
   
 footer .contacto form input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
     color: #bbb5af;
-  }
+  } */
   
   /* on hover placeholder */
   
-footer .contacto form input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+/* footer .contacto form input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
     color: #e2dedb;
     font-size: 0.875em;
   }
@@ -434,7 +435,7 @@ footer .contacto form button[type='submit']:hover {
     background: #fff;
     color: #002A22;
 
-}
+} */
 
                     /* ---------- Estilos del footer---------- */
 footer .redes-sociales{
