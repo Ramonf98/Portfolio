@@ -273,13 +273,16 @@ footer .contacto .titulo{
     color: #002A22;
     text-align: center;
 }
-footer .contacto .contact-info{
+
+/* footer .contacto .contact-info{
     display: flex;
     justify-content: space-around;
     color: #002A22;
     font-size: 1.3rem;
     text-align: center;
-}
+} */
+
+/* Estilos del formulario */
 
 footer .contacto form input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color: #aca49c;
@@ -415,7 +418,7 @@ color: #e2dedb;
 footer .contacto form button[type='submit'] {
 width: 100%;
 background: #002A22;
-padding: 10px;
+padding: 15px;
 font-size: 0.875em;
 color: #F8E5EE;
 
@@ -430,9 +433,8 @@ transition: all .2s ease;
 footer .contacto form button[type='submit']:hover {
     background: #fff;
     color: #002A22;
-    width: 50%;
-}
 
+}
 
                     /* ---------- Estilos del footer---------- */
 footer .redes-sociales{
@@ -490,6 +492,9 @@ footer .redes-sociales .twitter:hover{
         width: 80%;
         margin: 20px auto;
      }
+     footer .contacto .contenedor form {
+        width: 100%;
+    }
 }
 @media screen and (max-width:500px){
     header .contenedor-texto .texto .nombre{
@@ -502,8 +507,5 @@ footer .redes-sociales .twitter:hover{
         flex-wrap: wrap;
         padding: 20px 0;
     }
-    .main .trabajos .contenedor-trabajos .card{
-        width: 100%;
-        
-     }
+ 
 }
