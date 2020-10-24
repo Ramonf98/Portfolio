@@ -230,7 +230,7 @@ header .contenedor-texto .texto .profesion{
 
 .main .trabajos .contenedor-trabajos .card .texts .descrip-made{
     font-weight: 300;
-    overflow: auto;
+    overflow: hidden;
     height: 110px;
 }
 .main .trabajos .contenedor-trabajos .card .texts .descrip-made .madeWith{
